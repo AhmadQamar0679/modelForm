@@ -5,7 +5,6 @@ class StudentForm(forms.ModelForm):
     class Meta:
         model=Student
         fields=['name','age','email']
-
     def clean_age(self):
         age=self.cleaned_data.get('age')
         if age<18:
