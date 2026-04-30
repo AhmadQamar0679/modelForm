@@ -1,3 +1,17 @@
-body{
-    background-color:lightseagreen;
+body {
+    margin: 0;
+    background-color: #2aa198;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
 }
